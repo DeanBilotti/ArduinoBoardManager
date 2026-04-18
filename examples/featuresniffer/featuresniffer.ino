@@ -27,7 +27,7 @@ void setup() {
   Serial.print("-bit, "); Serial.print(ArduinoBoardManager::MAX_MHZ/M);
   Serial.print("Mhz processor with "); Serial.print(ArduinoBoardManager::SRAM_SIZE/k);
   Serial.print("k of SRAM, "); Serial.print(ArduinoBoardManager::EEPROM_SIZE/k);
-  Serial.print("k of EEPROM and "); Serial.print(ArduinoBoardManager::FLASH_SIZE/k);
+  Serial.print("k of EEPROM and "); Serial.print(ArduinoBoardManager::BOARD_FLASH_SIZE/k);
   Serial.println("k of flash.");
   Serial.println();
   
